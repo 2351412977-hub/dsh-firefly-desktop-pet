@@ -1,0 +1,8 @@
+# Bundle patch: inserts the dsh-firefly row into the active profile.
+#
+# `id` is the plugin row id (stable), `name` is the package that provides the
+# plugin. The package resolves from the linked directory for a local install, or
+# from node_modules for a Git install.
+- insert:
+    - id: dsh-firefly
+      name: 'dsh-firefly'
